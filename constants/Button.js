@@ -35,7 +35,7 @@ const ReactButton = ( {handlePress, minWidth, fontSize, style}  ) => {
       textAlign:"center",
       color:COLORS.white,
       fontFamily:FONTS.semiBold
-    }} >Place a bidsssss</Text>
+    }} >Place a bids</Text>
   </TouchableOpacity>
   )
 }
