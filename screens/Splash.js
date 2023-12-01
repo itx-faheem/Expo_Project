@@ -6,12 +6,9 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 const Splash = ({ navigation }) => {
   return (
-        <View style={{justifyContent:"center",alignItems:"center", flex:1}} >
-          <LinearGradient colors={["68","254","255"]}  style={styles.LinearGradientstyle}  >
-        <Image source={assets.SplashLogo} style={{width:200,height:200,}} resizeMode='contain'    />
-          </LinearGradient>
-        </View>
-
+          <View   style={styles.LinearGradientstyle}  >
+        <Image source={assets.logoicon} style={{width:200,height:200,}} resizeMode='contain'/>
+          </View>
   );
 }
 
@@ -23,7 +20,8 @@ const styles = StyleSheet.create({
     height:"100%",
     justifyContent:"center",
     alignItems:"center",
-    flex:1
+    flex:1,
+    backgroundColor:"#fff"
   }
 });
 

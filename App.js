@@ -38,16 +38,16 @@ const App = () => {
 
   return (
     <NavigationContainer theme={theme}>
-      <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="Splash">
-        {splashScreen ? (
+      <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="Home">
+        {/* {splashScreen ? (
           <Stack.Screen name="Splash" component={Splash} />
           // <Stack.Screen name="Home" component={Home} />
         ) : (
-          <>
+          <> */}
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Details" component={Details} />
-          </>
-        )}
+          {/* </>
+        )} */}
       </Stack.Navigator>
     </NavigationContainer>
   );

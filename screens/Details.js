@@ -12,10 +12,10 @@ const DetailsHeader = ({ data, navigation }) => {
     <View style={{ width: '100%', height: 373 }}>
       <Image source={data.image} resizeMode='cover' style={{ width: '100%', height: '100%' }} />
       <View style={{ position: 'absolute', left: 15, top: StatusBar.currentHeight + 10 }}>
-        <CircleButton imgUrl={assets.left} handlePress={() => navigation.goBack()} />
+        <CircleButton imgUrl={assets.left} style={{color:"#000"}}  handlePress={() => navigation.goBack()} />
       </View>
       <View style={{ position: 'absolute', right: "13%", top: StatusBar.currentHeight + 10, }}>
-        <CircleButton imgUrl={assets.heart} justifyContent="center" alignItems="center" />
+        <CircleButton  imgUrl={assets.heart} justifyContent="center" alignItems="center" />
       </View>
     </View>
   );
