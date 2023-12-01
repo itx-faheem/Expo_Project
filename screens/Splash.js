@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { COLORS, FONTS, SIZES, assets } from "../constants";
 import { LinearGradient } from 'expo-linear-gradient';
@@ -6,9 +6,11 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 const Splash = ({ navigation }) => {
   return (
-          <View   style={styles.LinearGradientstyle}  >
-        <Image source={assets.logoicon} style={{width:200,height:200,}} resizeMode='contain'/>
-          </View>
+          // <LinearGradient  colors={[ "#00dbde", "#fc00ff"]} style={styles.LinearGradientstyle}  >
+          // <ImageBackground  style={{flex:1, justifyContent:"center",alignItems:"center",position:"absolute", zIndex:1}}  source={require("../assets/adaptive-icon.png")} resizeMode='cover'  >
+          // </ImageBackground>
+          // </LinearGradient>
+          null
   );
 }
 
@@ -21,7 +23,6 @@ const styles = StyleSheet.create({
     justifyContent:"center",
     alignItems:"center",
     flex:1,
-    backgroundColor:"#fff"
   }
 });
 

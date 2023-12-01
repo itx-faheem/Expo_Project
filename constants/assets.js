@@ -18,9 +18,6 @@ import person02 from "../assets/images/person02.png";
 import person03 from "../assets/images/person03.png";
 import person04 from "../assets/images/person04.png";
 import SplashLogo from "../assets/images/SplashLogo.png";
-import logoicon from "../assets/logoicon.png";
-
-
 
 export default {
   badge,
@@ -43,5 +40,4 @@ export default {
   person03,
   person04,
   SplashLogo,
-  logoicon,
 };

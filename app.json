@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "MarketPlace",
+    "icon": "./assets/icon.png",
     "slug": "MarketPlace",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logoicon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
@@ -21,7 +21,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "resizeMode": "center"
       },
       "package": "com.isa_faheem.MarketPlace"
     },
